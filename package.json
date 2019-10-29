@@ -1,0 +1,43 @@
+{
+  "name": "nodejs_phim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslintrc.js",
+  "bin": {
+    "nodejs_phim": "develop.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "eslintrc": "^1.0.6",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.13",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moments": "^0.0.2",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "sha": "^3.0.0",
+    "sha256": "^0.2.0",
+    "typescript": "^3.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanphat9324/Nodejs_Phim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanphat9324/Nodejs_Phim/issues"
+  },
+  "homepage": "https://github.com/tanphat9324/Nodejs_Phim#readme"
+}

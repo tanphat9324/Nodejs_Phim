@@ -1,14 +1,20 @@
-const Product = require('../models/product');
+const Phim = require('../models/phim');
+
+const createOne = async(req, res) => {
+    return  
+}
 
 const findAllProduct = async () =>{
     return new Promise((resolve, reject) =>{
-        await Product.find({status: 'Active'}, ['']).then((data) =>{
+        await Phim.find({status: 'Active'}, ['']).then((data) =>{
             resolve(data);
         }).catch((err) =>{
             reject(err);
         })
     })
 }
+
+
 
 module.exports = {
     findAllProduct
